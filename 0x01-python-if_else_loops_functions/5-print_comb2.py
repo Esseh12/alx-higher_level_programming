@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for n in range(99):
-    print("{:02d}".format(n), end=", ")
-print("{:02d}".format(99))
+for i in range(0, 100):
+    print(f"{i:02d}", end=", ")
+    if i == 99:
+        print(f"{i:02d}")
