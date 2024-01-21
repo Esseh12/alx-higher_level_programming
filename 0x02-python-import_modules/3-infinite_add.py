@@ -1,18 +1,11 @@
 #!/usr/bin/python3
-def add_arg(argv):
-    n = len(argv) - 1
-    if n == 0:
-        print("{:d}".format(n))
-        return
-    else:
-        i = 1
-        add = 0
-        while i <= n:
-            add += int(argv[i])
-            i += 1
-        print("{:d}".format(add))
-
-
-if __name__ == "__main__":
-    import sys
-    add_arg(sys.argv)
+# importing sys module
+import sys
+argument_length = len(sys.argv)
+if argument_length <= 2:
+    print(f"{argument_length}")
+elif argument_length >= 3:
+    for i, arg in enumerate(sys.argv[1:], start=1):
+        numeric_arguments = [float(arg) for arg in sys.argv[3:]]
+        result = sum(numeric_arguments)
+        print("Sum of arguments:", result)
