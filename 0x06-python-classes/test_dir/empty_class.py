@@ -2,7 +2,7 @@
 """
 This is an empty class called shape
 """
-class Shape:
+class Shape: #a class
     pass
 
 #this is an object of thr class
