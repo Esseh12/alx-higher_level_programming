@@ -11,5 +11,4 @@ class Square:
     how to create a class
     """
     def __init__(self, size):
-       self.__size = size
-
+        self.__size = size
