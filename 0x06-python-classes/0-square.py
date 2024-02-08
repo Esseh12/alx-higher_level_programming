@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-"""A module for square"""
-
-
-class Square:
-    """Represent a square."""
-    pass
+"""An empty class called square"""
+class Square: #how to create a class
+    pass #since its an empty class
