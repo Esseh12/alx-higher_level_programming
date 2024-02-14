@@ -4,6 +4,7 @@
 This modules writes into a file and overwrites the existing file
 """
 
+
 def write_file(filename="", text=""):
 
     """Writes into a file (UTF8) and returns the number of characters written
