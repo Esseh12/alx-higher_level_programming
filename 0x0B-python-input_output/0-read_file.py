@@ -1,25 +1,22 @@
 #!/usr/bin/python3
 
-
-""" 
-    This module reads from a file
+"""
+This module provides a function to read from a file
 """
 
 
 def read_file(filename=""):
 
+    """
+    Read the conetnt of te file and prints them to stdout
 
-""" 
-This funtion reads from a file
+    Args:
+        filename (str): The name of the file to read. it reads "my_file_0.txt".
 
-Args:
-        filename (str): The name of the file to read. If not provided, it reads "my_file_0.txt".
+    Returns:
+        None
+    """
 
-
-Returns:
-None
-"""
-
-    with open("my_file_0.txt", encoding="UTF8") as f:
-        for line in f:
+    with open("my_file_0.txt", encoding="UTF8") as open_file:
+        for line in open_file:
             print(line, end="")
