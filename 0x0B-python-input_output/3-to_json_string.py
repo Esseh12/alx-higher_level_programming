@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-import json
 
 """
 This module contains a function that returns a JSON rep of a string
 """
+
+import json
 
 
 def to_json_string(my_obj):
@@ -14,8 +15,8 @@ def to_json_string(my_obj):
     Args:
         my_obj: the list to be printed
 
-    Return:
+    Returns:
         The JSON rep of a string
     """
 
-    return json.dumps(my_obj)
+    return (json.dumps(my_obj))
