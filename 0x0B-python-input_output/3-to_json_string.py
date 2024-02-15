@@ -2,7 +2,7 @@
 import json
 
 """
-This module conatins a function that returns a JSON rep of a string
+This module contains a function that returns a JSON rep of a string
 """
 
 
