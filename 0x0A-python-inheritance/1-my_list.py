@@ -12,11 +12,10 @@ class MyList(list):
     This class is inherted from another class list
     """
 
+    def __init__(self):
+        """a subclass of list"""
+        super().__init__()
+
     def print_sorted(self):
-
-        """
-        A function that prints the list, but sorted (ascending sort)
-        """
-
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """prints the sorted list"""
+        print(sorted(self))
