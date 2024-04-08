@@ -5,7 +5,7 @@
 const process = require('process');
 const integer = parseInt(process.argv[2]);
 
-if (process.argv[2] === undefined) {
+if (isNaN(integer)) {
   console.log('Missing number of occurrences');
 } else if (integer > 0) {
   const stringToRepeat = 'C is fun\n';
