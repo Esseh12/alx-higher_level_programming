@@ -12,12 +12,11 @@ if (isNaN(integer)) {
 // const result = stringToRepeat.repeat(integer);
 // console.log(result);
   let result = '';
-  let stringToRepeat = 'X';
+  const stringToRepeat = 'X';
   for (let i = 0; i < integer; i++) {
     if (i < integer - 1) {
       console.log(stringToRepeat.repeat(integer));
     } else {
-      let stringToRepeat = 'X';
       result += stringToRepeat.repeat(integer); // Don't add a new line for the last repetition
     }
   }
