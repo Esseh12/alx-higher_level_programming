@@ -1,3 +1,3 @@
 #!/bin/bash
-# a Bash script that takes in a URL
-curl -sL "$1"
+# send a get request to a url and diaplay the 200 status code
+curl -s "$1" | wc
