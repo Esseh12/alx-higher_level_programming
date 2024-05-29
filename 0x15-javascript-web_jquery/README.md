@@ -100,8 +100,6 @@ $('#slideUpButton').click(function() {
 });
 ```
 
-https://jquery.com/
-
 #### Documentation
 
-For more detailed information, please refer to the official jQuery documentation. The documentation includes comprehensive guides and API references for all jQuery features.
+For more detailed information, please refer to the [official jQuery](https://jquery.com/) documentation. The documentation includes comprehensive guides and API references for all jQuery features.
