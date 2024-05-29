@@ -58,7 +58,8 @@ $('.myClass').addClass('highlight');
 
 #### Event Handling
 
-````// Click event
+```
+// Click event
 $('#myButton').click(function() {
     alert('Button clicked!');
 });
@@ -68,7 +69,39 @@ $('.hoverItem').hover(function() {
     $(this).css('background-color', 'yellow');
 }, function() {
     $(this).css('background-color', 'white');
-}); ```
+});
+```
 
-####
-````
+#### AJAX Requests
+
+```
+// Simple AJAX GET request
+$.get('https://api.example.com/data', function(response) {
+    console.log(response);
+});
+
+// AJAX POST request
+$.post('https://api.example.com/data', { key: 'value' }, function(response) {
+    console.log(response);
+});
+```
+
+#### Animations
+
+```
+// Fade out an element
+$('#fadeOutButton').click(function() {
+    $('#myElement').fadeOut('slow');
+});
+
+// Slide up an element
+$('#slideUpButton').click(function() {
+    $('#myElement').slideUp('fast');
+});
+```
+
+https://jquery.com/
+
+#### Documentation
+
+For more detailed information, please refer to the official jQuery documentation. The documentation includes comprehensive guides and API references for all jQuery features.
